@@ -26,6 +26,8 @@ namespace gyakorlas123132415246346373
             //}
 
 
+            // Házi megoldás: 
+
             for (int i = 0; i < adatok.Length; i++)
             {
                 if (adatok[i] == ';')
@@ -35,9 +37,10 @@ namespace gyakorlas123132415246346373
 
                 else
                 {
-                    Console.Write(adatok[i]);
+                    Console.Write(Convert.ToInt32(adatok[i].ToString()) * 2);
                 }
             }
+
 
             Console.ReadKey();
         }
